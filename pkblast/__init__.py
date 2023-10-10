@@ -9,6 +9,8 @@ from .ctypes import _decompressBytes, _decompressStream
 
 __all__ = ("decompressStreamToStream", "decompressStreamToBytes", "decompressBytesWholeToStream", "decompressBytesWholeToBytes", "decompressBytesChunkedToStream", "decompressBytesChunkedToBytes", "decompress", "DEFAULT_CHUNK_SIZE")
 
+warn("We have moved from M$ GitHub to https://codeberg.org/implode-compression-impls/pkblast.py , read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo .")
+
 DEFAULT_CHUNK_SIZE = 16384
 
 
